@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/JavaScript/ejercicio_2/image/download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.MainSection {
+    width: 75%;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: auto;
+    padding: 75px;
+    position: relative;
+    top: 100px;
+}
+
+.InputSection div {
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.InputSection input {
+    border: none;
+    overflow: none;
+    outline: none;
+}
+
+.InputSection {
+    margin-left: 500px;
+}
+
+button {
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #48e;
+    border: none;
+    cursor: pointer;
+}
