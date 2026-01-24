@@ -6,8 +6,8 @@ Button.addEventListener("click", () => {
     const name = Username.value.trim();
 
     if (name === "") {
-        Message.textContent = `Hey pon tu nombre!!! ⚠️`;
+        Message.textContent = `Favor de poner su nombre!!!`;
     } else {
-        Message.textContent = `Hola ${name}, bienvenido a el mejor JavaScript que veras hoy 😎`;
+        Message.textContent = `Hola ${name}, bienvenido a el mejor JavaScript que veras hoy 🧐🍷`;
     }
 });

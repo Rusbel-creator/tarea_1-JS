@@ -4,40 +4,89 @@
 
 body {
     font-family: sans-serif;
+    background-image: url(/JavaScript/ejercicio_2/image/studio-arrangement-work.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 .MainSection {
-    width: 75%;
     background-color: #fff;
-    border-radius: 10px;
-    margin: auto;
-    padding: 75px;
-    position: relative;
-    top: 100px;
-}
-
-.InputSection div {
-    margin-bottom: 15px;
-    border: 1px solid #000;
+    text-align: center;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 80px;
     border-radius: 25px;
-    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.InputSection input {
-    border: none;
-    overflow: none;
-    outline: none;
+a {
+  color: #000;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.3s ease;
+}
+
+a:hover {
+   background-size: 100% 1px;
+}
+
+.MainSection h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.MainSection p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.MainSection p span {
+    font-weight: bold;
 }
 
 .InputSection {
-    margin-left: 500px;
+    margin-top: 10px;
 }
 
-button {
-    padding: 10px 25px;
-    color: #fff;
-    border-radius: 10px;
-    background-color: #48e;
+.InputSection div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.InputSection input {
+    width: 100%;
     border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.InputSection button {
+    background-color: #48e;
+    color: #fff;
+    border: none;
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.InputSection button:hover {
+    background-color: #2683d4;
+}
+
+#mensaje {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #444;
 }
